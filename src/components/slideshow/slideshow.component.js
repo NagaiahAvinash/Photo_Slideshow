@@ -5,13 +5,13 @@ const Slideshow =()=>{
     const[slideIndex, setSlideIndex]=useState(1);
     const slides=[
         {
-            src: "/photos/one.jpg", caption: "Caption One"
+            src: "/public/photos/one.jpg", caption: "Caption One"
         },
         {
-            src: "/photos/two.jpg", caption: "Caption Two"
+            src: "/public/photos/two.jpg", caption: "Caption Two"
         },
         {
-            src: "/photos/three.jpg", caption: "Caption Three"
+            src: "/public/photos/three.jpg", caption: "Caption Three"
         }
     ];
 
